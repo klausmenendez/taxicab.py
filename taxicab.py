@@ -19,12 +19,14 @@ class Taxicab:
         self.num=num
         self.reading += abs(num)
         self._x = self._x+num
+    def get_x_coord
         return self._x
     def move_y(self, num2):
         #moves taxicab in the y direction
         self.num2=num2
         self.reading += abs(num2)
         self._y = self._y+num2
+     def get_y_coord
         return self._y
     def get_odometer(self):
         #distance taxicab has gone
