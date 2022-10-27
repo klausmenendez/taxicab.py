@@ -26,7 +26,7 @@ class Taxicab:
         self.reading += abs(num2)
         self._y = self._y+num2
         return self._y
-    def odometer_reading(self):
+    def get_odometer(self):
         #distance taxicab has gone
         new_x=self._x
         new_y=self._y
@@ -36,4 +36,4 @@ class Taxicab:
 #cab.move_x(-3)
 #cab.move_y(5)
 #cab.move_y(2)
-#print(cab.odometer_reading())
+#print(cab.get_odometer())
